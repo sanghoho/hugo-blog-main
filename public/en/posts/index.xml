@@ -1,0 +1,24 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - R is Well</title>
+        <link>/en/posts/</link>
+        <description>All Posts | R is Well</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>ash1151@ajou.ac.kr (sanghoho)</managingEditor>
+            <webMaster>ash1151@ajou.ac.kr (sanghoho)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 10 Jul 2020 01:34:34 &#43;0900</lastBuildDate><atom:link href="/en/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>[Hugo] Quick Start</title>
+    <link>/en/hugo-quick-start/</link>
+    <pubDate>Fri, 10 Jul 2020 01:34:34 &#43;0900</pubDate>
+    <author>Author</author>
+    <guid>/en/hugo-quick-start/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>First Post</title>
+    <link>/en/first-post/</link>
+    <pubDate>Fri, 10 Jul 2020 01:23:30 &#43;0900</pubDate>
+    <author>Author</author>
+    <guid>/en/first-post/</guid>
+    <description><![CDATA[Hello My Name is Sangho
+이제 무엇을 해볼까요?
+1 2 3  def say_hello(name=&#34;sanghoho&#34;): print(&#34;Hello &#34;, name, &#34;!&#34;)   ]]></description>
+</item></channel>
+</rss>
