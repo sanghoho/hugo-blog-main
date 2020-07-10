@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "http://sanghoho.github.io"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "kr"
@@ -608,16 +608,13 @@ enableEmoji = true
     thumbnailUrl = "/images/screenshot.png"
 
   # Analytics config
-  # 网站分析配置
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "UA-172330494-1"
       # whether to anonymize IP
-      # 是否匿名化用户 IP
       anonymizeIP = true
-    # Fathom Analytics
 
 
   # Cookie consent config
@@ -703,8 +700,8 @@ enableEmoji = true
 # Permalinks config (https://gohugo.io/content-management/urls/#permalinks)
 # Permalinks 配置 (https://gohugo.io/content-management/urls/#permalinks)
 [Permalinks]
-  # posts = ":year/:month/:filename"
-  posts = ":filename"
+  posts = ":year/:month/:filename"
+  # posts = ":filename"
 
 # Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
 # 隐私信息配置 (https://gohugo.io/about/hugo-and-gdpr/)

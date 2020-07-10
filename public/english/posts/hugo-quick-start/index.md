@@ -1,6 +1,0 @@
-# [Hugo] Quick Start
-
-
-
-
-

@@ -1,7 +1,14 @@
-# [Go] Hugo Quick Start
+---
+title: "[Go] Hugo Quick Start"
+date: 2020-07-10T01:23:30+09:00
+draft: false
+tags: ["Hugo", "Django", "Pytorch"]
+categories: ["Machine Learning"]
+
+cover: ""
+---
 
 
-[Original Source](https://gohugo.io/getting-started/quick-start/) 
 
 # Hugo 설치
 
@@ -60,3 +67,8 @@ hugo server -D
 ```
 
 이제 우리는
+
+
+# Reference
+
+- [Quick Start | Hugo](https://gohugo.io/getting-started/quick-start/) 
