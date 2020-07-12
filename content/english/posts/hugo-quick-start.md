@@ -1,10 +1,25 @@
 ---
 title: "[Hugo] Quick Start 1"
 date: 2020-07-10T01:34:34+09:00
-draft: true
+draft: false 
+tags: ["hugo", "quick-start"]
+categories: ["Development"]
+
+resources:
+- name: "featured-image"
+  src: "https://gohugo.io/images/gohugoio-card.png"
+- name: "featured-image-preview"
+  src: "https://gohugo.io/images/gohugoio-card.png"
+
+description: "This article shows the basic Markdown syntax and format."
+
+# cover: "https://gohugo.io/images/gohugoio-card.png"
+lightgallery: true
+
+
 ---
 
-<img src="https://gohugo.io/images/gohugoio-card.png" />
+<!-- <img src="https://gohugo.io/images/gohugoio-card.png" /> -->
 
 # Introduction
 

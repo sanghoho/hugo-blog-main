@@ -34,7 +34,7 @@ enableEmoji = true
     # default amount of posts in each pages
     paginate = 12
     # [UA-XXXXXXXX-X] google analytics code
-    googleAnalytics = ""
+    googleAnalytics = "UA-172330494-1"
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
@@ -87,7 +87,7 @@ enableEmoji = true
       # site description
       description = "About Data Science, Development, and Business"
       # site keywords
-      keywords = ["Data Science", "Machine Learning", "Development"]
+      keywords = ["Machine Learning", "Mathematics", "Development"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -158,6 +158,7 @@ enableEmoji = true
 
   [languages.kr]
     weight = 1
+    contentDir = "content/korean"
     # language code
     languageCode = "kr"
     # language name
@@ -167,7 +168,7 @@ enableEmoji = true
     # default amount of posts in each pages
     paginate = 12
     # [UA-XXXXXXXX-X] google analytics code
-    googleAnalytics = ""
+    googleAnalytics = "UA-172330494-1"
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
@@ -217,9 +218,9 @@ enableEmoji = true
         weight = 5
     [languages.kr.params]
       # site description
-      description = "About LoveIt Theme"
+      description = "데이터 사이언스, 개발, 그리고 경영 관련 블로그입니다."
       # site keywords
-      keywords = ["Theme", "Hugo"]
+      keywords = ["Machine Learning", "Mathematics", "Development"]
       # App icon config
       [languages.kr.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -402,7 +403,7 @@ enableEmoji = true
     twemoji = false
     # whether to enable lightgallery
     # 是否使用 lightgallery
-    lightgallery = true
+    lightgallery = false
     # whether to enable the ruby extended syntax
     # 是否使用 ruby 扩展语法
     ruby = true
@@ -526,13 +527,12 @@ enableEmoji = true
         clientSecret = ""
 
       # Utterances comment config (https://utteranc.es/)
-      # Utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
+        repo = "sanghoho/blog-comments"
         issueTerm = "pathname"
-        label = ""
+        label = "comment"
         lightTheme = "github-light"
         darkTheme = "github-dark"
     # Third-party library config
@@ -557,7 +557,7 @@ enableEmoji = true
       # Publisher info
       # 出版者信息
       [params.page.seo.publisher]
-        name = "xxxx"
+        name = "sanghoho"
         logoUrl = "/images/R-icon.png"
 
   # TypeIt config
