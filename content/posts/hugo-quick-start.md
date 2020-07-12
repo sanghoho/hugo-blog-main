@@ -20,7 +20,7 @@ cover: "https://gohugo.io/images/gohugoio-card.png"
 
 따라서 이 글에서는 github 블로그를 생성하도록 도와주는 많은 기술들 중, `Go` 언어 기반의 정적 웹사이트 생성기(Static Website Generator)를 소개해보고자 합니다.
 
-Hugo Quick Start 글을 통해 OS별 설치, 주요 키워드, 블로그 프리뷰 및 생성 까지 알아가실 수 있습니다. git을 사용하기 때문에, 우선 사전에 git 환경을 구성해주시면 되겠습니다.
+Hugo Quick Start 글을 통해 OS별 설치, 주요 명령어, 블로그 프리뷰 및 생성 까지 알아가실 수 있습니다. git을 사용하기 때문에, 우선 사전에 git 환경을 구성해주시면 되겠습니다.
 
 - `git`: https://git-scm.com/downloads
 
@@ -140,7 +140,7 @@ title = "My New Hugo Site"
 ```bash
 hugo server -D
 ```
-해당 코드를 실행하면 테마가 적용된 블로그에 대한 실행 내역을 볼 수 있습니다.
+해당 코드를 실행하면 블로그에 테마가 적용된 모습과 작성된 포스트들에 대해서 볼 수 있습니다.
 
 ![hugo server -D](/images/hugo_quick_start/hugo_server.png)
 
