@@ -19,7 +19,7 @@ lightgallery: true
 
 ---
 
-<!-- <img src="https://gohugo.io/images/gohugoio-card.png" /> -->
+<img src="https://gohugo.io/images/gohugoio-card.png" />
 
 # Introduction
 

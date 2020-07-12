@@ -579,11 +579,12 @@ enableEmoji = true
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
   # 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = ""
+    google = "tegAJOFg4fldtkG9h5a3EC_hVdCqMbfa40Cw2N7ewG8"
     bing = ""
     yandex = ""
     pinterest = ""
     baidu = ""
+    naver = "1fee545ec7935624af0f6d63efe1e63f48a100b5"
 
   # Site SEO config
   # 网站 SEO 配置
