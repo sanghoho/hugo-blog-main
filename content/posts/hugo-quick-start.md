@@ -1,5 +1,5 @@
 ---
-title: "[Go] Hugo Quick Start"
+title: "[Hugo] Quick Start 1"
 date: 2020-07-10T01:23:30+09:00
 draft: false
 tags: ["hugo", "quick-start"]
@@ -132,9 +132,9 @@ title = "My New Hugo Site"
 `theme = ananke` (앞서 저장된 폴더이름)를 한줄 추가하면 됩니다.
 
 
-# 4. Hugo 실행 및 생성
+## 4. Hugo 실행 및 생성
 
-## 4.1. 블로그 프리뷰 
+### 4.1. 블로그 프리뷰 
 이제 드디어 블로그가 어떻게 생길지에 대해서 확인할 수 있게 되었습니다.
 
 ```bash
@@ -144,12 +144,12 @@ hugo server -D
 
 ![hugo server -D](/images/hugo_quick_start/hugo_server.png)
 
-원래는 기본이 `localhost:1313` 혹은 `127.0.0.1:1313` 과 같이 1313 포트에서 실행되야 하는데, 여러개를 실행할 경우 랜덤으로 남아있는 포트가 지정되게 됩니다.
+원래는 기본이 `localhost:1313` 혹은 `127.0.0.1:1313` 과 같이 1313 포트에서 실행돼야 하는데, 여러개를 실행할 경우 랜덤으로 남아있는 포트가 지정되게 됩니다.
 
 혹시 theme를 가져왔는데 `hugo server -D` 가 실행되지 않는 경우가 간혹 있습니다. 
 이럴때는 **hugo extended version**을 추가 설치하면 대부분의 문제가 해결됩니다.
 
-## 4.2. 블로그 생성
+### 4.2. 블로그 생성
 
 앞선 명령어는 단지 자신의 로컬 환경에서 블로그가 어떻게 보여질지에 대한 피리뷰를 제공했다면, 다음의 명령어는 `html`, `css`, `javascript` 등으로 이루어진 실제 웹사이트를 생성해줍니다.
 
