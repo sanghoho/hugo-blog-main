@@ -71,8 +71,7 @@ brew install hugo
 ```bash
 hugo version
 ```
-
-![hugo version check](/images/hugo_quick_start/hugo_version.png)
+{{< image src="/images/hugo_quick_start/hugo_version.png" caption="Hugo Version Check" alt="hugo-version" height="500px">}}
 
 ## 2. Hugo 사이트 생성
 
@@ -152,7 +151,7 @@ hugo server -D
 ```
 해당 코드를 실행하면 블로그에 테마가 적용된 모습과 작성된 포스트들에 대해서 볼 수 있습니다.
 
-![hugo server -D](/images/hugo_quick_start/hugo_server.png)
+{{< image src="/images/hugo_quick_start/hugo_server.png" caption="hugo server -D" alt="hugo-run" height="500px">}}
 
 원래는 기본이 `localhost:1313` 혹은 `127.0.0.1:1313` 과 같이 1313 포트에서 실행돼야 하는데, 여러개를 실행할 경우 랜덤으로 남아있는 포트가 지정되게 됩니다.
 

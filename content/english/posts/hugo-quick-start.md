@@ -75,7 +75,7 @@ If you have installed Hugo for your OS using the above methods, check the curren
 hugo version
 ```
 
-![hugo version check](/images/hugo_quick_start/hugo_version.png)
+{{< image src="/images/hugo_quick_start/hugo_version.png" caption="Hugo Version Check" alt="hugo-version" height="500px">}}
 
 ## 2. Create Hugo Site
 
@@ -153,8 +153,7 @@ hugo server -D
 ```
 
 When you run that code, you can see the theme applied to the blog and the posts that have been made.
-
-![hugo server -D](/images/hugo_quick_start/hugo_server.png)
+{{< image src="/images/hugo_quick_start/hugo_server.png" caption="hugo server -D" alt="hugo-run" height="500px">}}
 
 Originally, the default port should be *1313*, such as `localhost:1313` or `127.0.0.1:1313`, but when running multiple ports, the remaining ports are randomly specified.
 
